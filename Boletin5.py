@@ -1,5 +1,6 @@
 
 #Boletin 5. Bucles avanzado.
+
 """
 #Ejercicio 1
 
@@ -41,7 +42,6 @@ for i in range(1, altura+1):
         print(numero, end=" ")
         numero+=1
     print()
-
 
 
 #Ejercicio 3

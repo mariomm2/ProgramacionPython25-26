@@ -1,5 +1,5 @@
 
-# Ejercicios de prueba de condicionales
+#Ejercicios de prueba de condicionales
 
 edad = 15
 

@@ -1,8 +1,6 @@
 
 #Ejercicios de prueba de bucles
 
-"""
-
 for i in range(10, -1, -1):
     print(i)
 
@@ -33,8 +31,6 @@ resultado = numero*1
 for i in range(1, 11):
     print(numero, "por", i, "=", resultado)
     resultado = resultado + numero   
-
-"""
 
 for i in range(1, 4):
     print(i)

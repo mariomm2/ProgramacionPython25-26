@@ -2,8 +2,6 @@
 
 #Boletin 1 Python
 
-"""
-
 #Ejercicio 1
 
 numero=int(input("Introduce un numero: "))
@@ -66,7 +64,7 @@ numero4=int(input("Introduce el cuarto numero: "))
 
 media = (numero1+numero2+numero3+numero4) / 4
 contador = 0
-uperior = ""
+superior = ""
 
 if numero1 > media:
     contador +=1
@@ -334,9 +332,9 @@ if cantidad_alumnos<30:
 
 print("El costo por alumno es de ", costo_alumno, "€ y el pago total a la compañia es de ", pago_compania, "€.")
 
-"""
 
 #Ejercicio 19
+
 
 #Ejercicio 20
 

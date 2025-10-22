@@ -1,5 +1,6 @@
 
-#Ejercicio 1.1 + 1.2
+#Prueba 6 Octubre
+#Ejercicio piedra, papel, tijera, lagarto y spock.
 
 print("Bienvenido, tiene que elegir entre piedra, papel, tijera, lagarto y spock.")
 

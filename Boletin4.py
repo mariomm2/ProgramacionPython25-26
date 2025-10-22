@@ -1,7 +1,5 @@
 # Boletin 2 Bucles
 
-"""
-
 #Ejercicio 1 
 
 #Con for:
@@ -145,8 +143,7 @@ if numero>0:
     print("La suma de los numeros entre 1 y", numero, "es:", suma)
 else:
     print("El numero debe ser positivo.")
-
-"""   
+ 
 #Ejercicio 6
 
 num1 = int(input("Introduce el primer numero: "))
@@ -167,7 +164,6 @@ for i in range(num1, num2+1):
 print("La suma de los numeros entre", num1, "y", num2, "es:", suma)
 
 
-"""
 #Ejercicio 7
 
 numero = int(input("Introduce un numero (menor que 100 termina): "))
@@ -297,15 +293,6 @@ print("La suma hasta", num, "terminos es:", suma)
 
 #Ejercicio 14
 
-num = int(input("Introduce la altura del rombo: "))
-
-i = 1
-while i <= num:
-    print(" " + (num-i) + "*" (2*i-1))
-    i+=1
-
 
 #Ejercicio 15
 
-
-"""

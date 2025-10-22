@@ -1,4 +1,5 @@
-# Boletin 2 Bucles
+
+#Boletin 4 Bucles
 
 #Ejercicio 1 
 
@@ -144,6 +145,7 @@ if numero>0:
 else:
     print("El numero debe ser positivo.")
  
+
 #Ejercicio 6
 
 num1 = int(input("Introduce el primer numero: "))
@@ -290,9 +292,4 @@ for i in range(1, num+1):
 
 print("La suma hasta", num, "terminos es:", suma)
 
-
-#Ejercicio 14
-
-
-#Ejercicio 15
 

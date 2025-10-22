@@ -1,6 +1,5 @@
 
-
-#Boletin 1 Python
+#Boletin 3 Condicionales
 
 #Ejercicio 1
 
@@ -211,13 +210,13 @@ elif caracter == "*":
     resultado = numero1 * numero2
     print("El resultado es: ", resultado)
 elif caracter == "/":
-    if numero2==0
+    if numero2==0:
         print("No se puede dividir por 0")
     else:
         resultado = numero1 / numero2
         print("El resultado es: ", resultado)
 else:
-    print((str)numero1 + caracter + (str)numero2)
+    print((str)numero2 + caracter + (str)numero2)
 
 #Para concatenar usamos +
 
@@ -331,9 +330,6 @@ if cantidad_alumnos<30:
     costo_alumno = 2500/cantidad_alumnos
 
 print("El costo por alumno es de ", costo_alumno, "€ y el pago total a la compañia es de ", pago_compania, "€.")
-
-
-#Ejercicio 19
 
 
 #Ejercicio 20

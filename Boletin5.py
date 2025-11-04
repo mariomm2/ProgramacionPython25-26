@@ -1,5 +1,5 @@
 
-#Boletin 5 Bucles avanzado
+#Boletin 5. Bucles avanzado.
 
 """
 #Ejercicio 1
@@ -14,7 +14,6 @@ for i in range(terminos):
     suma+=int(cadena) 
     print(cadena, end=" ")
 print("La suma de la serie es:", suma)
-
 
 #Ejercicio 2
 
@@ -31,6 +30,7 @@ for i in range  (1, altura+1):
         numero="1"
         cadena = numero+cadena
         print(cadena)
+
 
 #Opcion decimal
 

@@ -1,5 +1,6 @@
 
-#Ejercicio 2
+#Examen 1 Python
+#Ejercicio 2 (Incompleto)
 
 hora = int(input("Introduce la hora. "))
 minuto = int(input("Introduce los minutos. "))

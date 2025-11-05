@@ -1,4 +1,5 @@
-# Boletin 2 Bucles
+#Boletin 2 Python
+#Introduccion a Bucles
 
 #Ejercicio 1 
 
@@ -289,10 +290,4 @@ for i in range(1, num+1):
     suma+=1/i
 
 print("La suma hasta", num, "terminos es:", suma)
-
-
-#Ejercicio 14
-
-
-#Ejercicio 15
 

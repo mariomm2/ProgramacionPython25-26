@@ -1,7 +1,7 @@
 
-#Boletin 5. Bucles avanzado.
+#Boletin 5 Python
+#Bucles avanzado
 
-"""
 #Ejercicio 1
 
 terminos = int(input("Introduce el numero de terminos: "))
@@ -107,6 +107,3 @@ while numero != 1:
 
 print()
 
-"""
-
-#Ejercicio 7

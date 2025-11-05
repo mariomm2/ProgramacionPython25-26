@@ -1,5 +1,7 @@
 
-#Ejercicio 3
+#Examen 1 Python
+#Ejercicio 3 (Incompleto)
+
 
 import random
 

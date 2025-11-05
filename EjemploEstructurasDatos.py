@@ -1,6 +1,6 @@
 
 #Ejercicios de prueba de estructuras de datos
-"""
+
 cadena = "Hola"
 
 lista_numeros = [1, 3, 5, 7, 9]
@@ -12,7 +12,7 @@ for elemento in lista_numeros:
     print(elemento)
 
 print(lista_numeros[0])
-"""
+
 
 "------------------------------------------------------------------------"
 

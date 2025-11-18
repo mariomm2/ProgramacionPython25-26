@@ -39,9 +39,9 @@ def sumar_matrices(m1, m2):
         j = 0
         while j < len(m1[i]):
             fila.append(m1[i][j] + m2[i][j])
-            j = j + 1
+            j+=1
         matriz_suma.append(fila)
-        i = i + 1
+        i +=1
 
     return matriz_suma
 

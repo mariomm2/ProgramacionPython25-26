@@ -54,7 +54,7 @@ def suma_numeros(cadena):
 
     for c in cadena:
         if c >= "0" and c <= "9":
-            numero = numero + c
+            numero +=c
         else:
             if numero != "":
                 total = total + int(numero)
@@ -63,6 +63,28 @@ def suma_numeros(cadena):
         total = total + int(numero)
 
     return total
+
+#Con isdigit()
+def suma_numeros(cadena):
+    total = 0
+    numero = ""
+
+    for c in cadena:
+        if c.isdigit():            
+            numero = numero + c    
+        else:
+            if numero != "":     
+                total = total + int(numero)
+                numero = ""        
+
+    if numero != "":              
+        total = total + int(numero)
+
+    return total
+
+
+cadena = "abc12de3fg45"
+print("La suma total es:", suma_numeros(cadena))
 
 print(suma_numeros("abc12x3y45"))
 
@@ -106,7 +128,7 @@ def charactersInString(cadena, caracter):
     return "La letra introducida aparece " + str(contador) + " veces"
 
 print(charactersInString("ProgramAcion", "a"))
-"""
+
 
 #Ejercicio 6
 
@@ -120,7 +142,7 @@ def lowCaseInString(cadena):
 
 print(lowCaseInString("MarioMartin"))
 
-"""
+
 #Ejercicio 7
 
 def numberInString(cadena):
@@ -152,20 +174,34 @@ print(palindromo("se o no se"))
 
 #Ejercicio 9
 
-def palabra_escondida(texto, palabra):
-    i = 0
-    for letra in texto:
-        if i < len(palabra) and letra == palabra[i]:
-            i = i + 1
-    
-    resultado = False
-    if i == len(palabra):
-        resultado = True
-    
-    return resultado
+#Resuelto en clase
 
-print(palabra_escondida("supercalifragilisticoespialidoso", "rapido"))
-print(palabra_escondida("sfragsilicoesiidoso", "rapido"))
+def buscar_palabra(texto, palabra):
+    texto=texto.lower()
+    palabra=palabra.lower()
+    contador=0
+    contador_cp=0
+    encontrada=False
+    
+    while not encontrada and contador_cp<len(texto) and len(palabra)>0:
+        if texto[contador_cp]==palabra[contador]:
+            contador+=1
+        contador_cp+=1
+        encontrada=len(palabra)==contador
+    
+
+
+    return encontrada or len(palabra)==0 and len(texto)==0
+
+
+assert(buscar_palabra("rapidosupercalifragilisticoespialidoso", "rapido"))
+assert(buscar_palabra("supercalifragilisticoespialido", "rapido"))
+assert(buscar_palabra("",""))
+assert(not buscar_palabra("sfragaglistiasdhj", "rapido"))
+assert(not buscar_palabra("superfragilisdaeto", "rapido"))
+assert(not buscar_palabra("", "rapido"))
+assert(not buscar_palabra("supercalifragilisticoespialidoso", ""))
+assert(not buscar_palabra("rapi", "rapido"))
 
 
 #Ejercicio 10
@@ -195,5 +231,43 @@ else:
 
 
 #Ejercicio 11
+
+#Ejercicio 12
+
+
+"""
+#Ejercicio 13
+
+def buscar_y_reemplazar(frase, buscar, reemplazar):
+    nueva = ""
+    i = 0
+
+    while i < len(frase):
+        if frase[i:i+len(buscar)] == buscar:
+            nueva = nueva + reemplazar
+            i = i + len(buscar)
+        else:
+            nueva = nueva + frase[i]
+            i = i + 1
+
+    return nueva
+"""
+
+    #Ejercicio 17
+
+    def ordenar_vocales(cadena):
+    consonantes = ""
+    vocales = ""
+    texto = cadena.lower()
+
+    for c in texto:
+        if c >= "a" and c <= "z":
+            if c in "aeiou":
+                vocales = vocales + c
+            else:
+                consonantes = consonantes + c
+
+    resultado = consonantes + vocales
+    return resultado
 
 """
